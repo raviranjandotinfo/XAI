@@ -38,3 +38,6 @@ predicted_class_idx, predicted_label = classify_audio(audio_path, model, feature
 # Print the classification result
 print(f"Predicted class index: {predicted_class_idx}")
 print(f"Predicted label: {predicted_label}")
+
+# Output : Predicted class index: 427
+#Predicted label: Gunshot, gunfire
