@@ -1,3 +1,5 @@
+# Predicting which class the audio belongs to using Audio spectogram transformer
+
 import torch
 from transformers import ASTForAudioClassification, ASTFeatureExtractor
 import librosa
