@@ -3,9 +3,14 @@
 
 Resouce details =>
 Hugging face access token of "MIT/ast-finetuned-audioset-10-10-0.4593" model. 
+
 Training Datasets : https://www.kaggle.com/datasets/emrahaydemr/gunshot-audio-dataset 
+
 Sample test dataset : /media/gunVsFire.mp3
+
 Notebook = Google colab
+
+
 Instruction to run the code :-
 
 i) Add Audio spectrogram transformer model token by 
