@@ -21,8 +21,11 @@ ii) Make sure imported libraries are installed like torch, transformer extra.
 iii) Start running file one by one. 
 
 ast_prediction.py = Predicting which class the audio belongs to.
+
 ig_ast_spectogram.py = Applying Integrated gradients to Audio spectogram transformer to generate classified image.
+
 ig_ast_wave.py = Create wave file of IG while using AST to classify.
+
 ig_shap.ipynb = Mask the region on spectrogram image. 
 
 
