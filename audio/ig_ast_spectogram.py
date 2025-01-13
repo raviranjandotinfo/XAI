@@ -10,7 +10,7 @@ def interpolate_baseline(baseline, inputs, alphas):
     """
     Interpolate between baseline and inputs.
     """
-    alphas = alphas[:, None, None]  # Reshape for broadcasting
+    alphas = alphas[:, None, None]  # Reshape for broadcasting.
     return baseline + alphas * (inputs - baseline)
 
 def compute_gradients(model, input_values, target_class_idx):
