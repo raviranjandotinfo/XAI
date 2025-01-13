@@ -9,7 +9,7 @@ Training Datasets : https://www.kaggle.com/datasets/emrahaydemr/gunshot-audio-da
 
 Sample test dataset : /media/gunVsFire.mp3
 
-Notebook = Google colab
+Notebook = Google colab 
 
 
 Instruction to run the code :-
