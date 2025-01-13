@@ -15,7 +15,7 @@ def compute_gradients(model, input_values, target_class_idx):
     """
     Compute gradients of the target class output w.r.t. the model inputs.
     """
-    input_values.requires_grad_()  # Enable gradient tracking
+    input_values.requires_grad_()  # Enable gradient tracking 
     outputs = model(input_values=input_values).logits  # Model forward pass
     target = outputs[:, target_class_idx]
     target.backward()  # Backpropagate to compute gradients
