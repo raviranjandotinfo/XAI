@@ -12,7 +12,7 @@ def classify_audio(file_path, model, feature_extractor, id_to_label, target_sr=1
     audio, sr = librosa.load(file_path, sr=target_sr)  # Resample to 16 kHz
     inputs = feature_extractor(raw_speech=audio, sampling_rate=target_sr, return_tensors="pt", padding=True)
 
-    # Run inference
+    # Run inference 
     with torch.no_grad():
         outputs = model(**inputs)
         logits = outputs.logits
